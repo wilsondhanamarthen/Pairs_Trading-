@@ -134,4 +134,5 @@ def summarize_pairs(results: List[CointegrationResult]) -> pd.DataFrame:
             "half_life_d": round(r.half_life, 1),
         }
         for r in results
-    ]) 
+    ])  
+
